@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name: Catalyst-Model-Gedcom
+version: 0.01
+author:
+  - Brian Cassidy <bricas@cpan.org>
+abstract: Gedcom Model Class
+license: perl
+requires:
+  Catalyst: 0
+  Gedcom: 0
+provides:
+  Catalyst::Model::Gedcom:
+    file: lib/Catalyst/Model/Gedcom.pm
+    version: 0.01
+generated_by: Module::Build version 0.2611
