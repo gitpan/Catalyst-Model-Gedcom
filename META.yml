@@ -1,6 +1,6 @@
---- #YAML:1.0
+---
 name: Catalyst-Model-Gedcom
-version: 0.01
+version: 0.02
 author:
   - Brian Cassidy <bricas@cpan.org>
 abstract: Gedcom Model Class
@@ -9,7 +9,10 @@ requires:
   Catalyst: 0
   Gedcom: 0
 provides:
+  Catalyst::Helper::Model::Gedcom:
+    file: lib/Catalyst/Helper/Model/Gedcom.pm
+    version: 0.01
   Catalyst::Model::Gedcom:
     file: lib/Catalyst/Model/Gedcom.pm
-    version: 0.01
+    version: 0.02
 generated_by: Module::Build version 0.2611

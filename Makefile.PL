@@ -2,13 +2,13 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-          'PL_FILES' => {},
-          'INSTALLDIRS' => 'site',
           'NAME' => 'Catalyst::Model::Gedcom',
           'VERSION_FROM' => 'lib/Catalyst/Model/Gedcom.pm',
           'PREREQ_PM' => {
-                           'Catalyst' => 0,
-                           'Gedcom' => 0
-                         }
+                           'Catalyst' => '0',
+                           'Gedcom' => '0'
+                         },
+          'INSTALLDIRS' => 'site',
+          'PL_FILES' => {}
         )
 ;
