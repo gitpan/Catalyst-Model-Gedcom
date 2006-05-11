@@ -14,7 +14,7 @@ SYNOPSIS
         
             1;
         
-            my $gedcom = $c->comp( 'MyApp::Model::Gedcom' );
+            my $gedcom = $c->model( 'Gedcom' );
         
             my @individuals = $gedcom->individuals;
 
@@ -22,14 +22,14 @@ DESCRIPTION
     This is a model class to connect "Gedcom" files to "Catalyst".
 
 METHODS
-  new( )
+  COMPONENT( )
     passes your config options to "Gedcom"'s "new" method.
 
 AUTHOR
     * Brian Cassidy <bricas@cpan.org>
 
 COPYRIGHT AND LICENSE
-    Copyright 2005 by Brian Cassidy
+    Copyright 2006 by Brian Cassidy
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
